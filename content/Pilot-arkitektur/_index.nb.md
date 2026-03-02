@@ -1,6 +1,6 @@
 ---
-title: "Arkitektur for pilot 1"
-linkTitle: "Team arkitektur"
+title: "Pilotarkitektur"
+linkTitle: "Pilotarkitektur"
 weight: 10
 ---
 
