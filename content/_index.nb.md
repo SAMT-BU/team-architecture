@@ -1,7 +1,7 @@
 ---
-title: "Team arkitektur"
-linkTitle: "Team arkitektur"
+title: "Målarkitektur"
+linkTitle: "Målarkitektur"
 weight: 10
-status: "Ikke påbegynt"
 ---
 
+TBD
