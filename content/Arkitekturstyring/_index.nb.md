@@ -1,16 +1,18 @@
 ---
 id: c6bf81cb-d1de-4017-b0d5-6f099db0ba5b
-title: Arkitekturstyring
-linkTitle: Arkitekturstyring
+title: "Arkitekturstyring"
+linkTitle: "Arkitekturstyring"
 weight: 40
 ---
+
+> **Kilde:** SAMT-BU kjerneteam / Digdir, februar 2026.
+> [Åpne i Word Online](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FSAMT-X%2Fsamt-bu-files%2Fmain%2Fcontributions%2Fdigdir-drafts%2FMal%20for%20arkitekturvurderinger.docx&ui=nb-NO&rs=nb-NO) – [last ned Word-fil](https://github.com/SAMT-X/samt-bu-files/raw/main/contributions/digdir-drafts/Mal%20for%20arkitekturvurderinger.docx)
+
 ## Mal for arkitekturvurderinger – utkast
 
-**NB!** Generelt rundt bruken av malen: Man trenger ikke bruke ALT i malen, men benytt den som et utgangspunkt og velg ut det som er mest relevant. Det viktigste er at man har et bevisst forhold til hva man velger å beskrive. Beskrivelsen vil utvikle seg gjennom utviklingsprosessen..
+**NB!** Generelt rundt bruken av malen: Man trenger ikke bruke ALT i malen, men benytt den som et utgangspunkt og velg ut det som er mest relevant. Det viktigste er at man har et bevisst forhold til hva man velger å beskrive. Beskrivelsen vil utvikle seg gjennom utviklingsprosessen.
 
-## Utkast til mal
-
-###  Overordnet struktur
+## Utkast til mal – overordnet struktur
 
 ![Arkitekturlagene illustrert som fire stablede bokser: «Hvorfor? / Kontekst», «Hva? / Konseptuell», «Hvordan? / Logisk», «Med hva? / Fysisk»](image1.png)
 
@@ -26,90 +28,76 @@ weight: 40
 
 Interessenter, mål og drivere, rammebetingelser, forutsetninger (strategier, prinsipper og dagens utfordringer som valg av ny arkitektur/teknologi skal løse). Spesielt relevant er typisk de overordnete arkitekturprinsipper (og hvilke kapabiliteter som trengs).
 
-* Mål og føringer
-
-  * Prinsipper og føringer
-  * Felles økosystem
-
-    * Overordnete arkitekturprinsipper for digitalisering i offentlig sektor
-    * Nasjonal Arkitektur kapabiliteter
-  * Andre føringer for arkitekturvalg
+- Mål og føringer
+  - Prinsipper og føringer
+  - Felles økosystem
+    - Overordnete arkitekturprinsipper for digitalisering i offentlig sektor
+    - Nasjonal Arkitektur kapabiliteter
+  - Andre føringer for arkitekturvalg
 
 ### Behov (hva)
 
-* Drømmereisen (se Miro)
+- Drømmereisen (se Miro)
 
 Her defineres kriteriene som alternativene skal vurderes mot. Kriteriene deles inn i tre typer:
 
-* Funksjonelle behov
-
-  * Spesifikke evner tjenesten må ha for å levere verdi til sluttbrukeren
-* Evt. ikke-funksjonelle krav
-
-  * Ytelse, volum, sikkerhet, …
-* Overordnete arkitekturprinsipper for digitalisering i offentlig sektor
-* Relevante kapabiliteter (Nasjonal Arkitektur)
-
-  * Identifiser hvilke nasjonale kapabiliteter som er kritiske for dette valget
+- Funksjonelle behov
+  - Spesifikke evner tjenesten må ha for å levere verdi til sluttbrukeren
+- Evt. ikke-funksjonelle krav
+  - Ytelse, volum, sikkerhet, …
+- Overordnete arkitekturprinsipper for digitalisering i offentlig sektor
+- Relevante kapabiliteter (Nasjonal Arkitektur)
+  - Identifiser hvilke nasjonale kapabiliteter som er kritiske for dette valget
 
 ### Konseptuell arkitektur
 
-* Definer høynivå-alternativer uavhengig av teknologi
-
-  * Skal knyttes opp mot de relevante kriteriene for valg av alternativ
-
-    * (Se under «Behov» over)
-* Konseptuelle alternativer, f.eks. knyttet til:
-
-  * Mønster: Beskriv overordnet arkitekturstil (f.eks. distribuert vs. sentralisert, hendelsesdrevet vs. forespørsel-respons)
-  * Monolitt vs. mikrotjenester
-  * Datasentrisk tjenesteutvikling
-  * Felles informasjonsmodeller – ulike måter å gjøre dette på
-  * Felles økosystem, …
-* Vurderinger av alternativene opp mot hverandre
-
-  * Resultat: Konseptuelt IT-målbilde for løsningen
-  * Utgangspunkt for løsningsvalgene
+- Definer høynivå-alternativer uavhengig av teknologi
+  - Skal knyttes opp mot de relevante kriteriene for valg av alternativ
+    - (Se under «Behov» over)
+- Konseptuelle alternativer, f.eks. knyttet til:
+  - Mønster: Beskriv overordnet arkitekturstil (f.eks. distribuert vs. sentralisert, hendelsesdrevet vs. forespørsel-respons)
+  - Monolitt vs. mikrotjenester
+  - Datasentrisk tjenesteutvikling
+  - Felles informasjonsmodeller – ulike måter å gjøre dette på
+  - Felles økosystem, …
+- Vurderinger av alternativene opp mot hverandre
+  - Resultat: Konseptuelt IT-målbilde for løsningen
+  - Utgangspunkt for løsningsvalgene
 
 ### Applikasjonsarkitektur (logisk og fysisk)
 
-* Logisk design (hvordan): Her beskrives en logisk gruppering av behovene i funksjonelle komponenter – skal være teknologi-uavhengig.
-* Implementering (med hva)
-* Løsningsalternativer
-* Vurdering av løsningsalternativ
+- Logisk design (hvordan): Her beskrives en logisk gruppering av behovene i funksjonelle komponenter – skal være teknologi-uavhengig.
+- Implementering (med hva)
+- Løsningsalternativer
+- Vurdering av løsningsalternativ
+  - Alternative løsningsvalg må beskrives og vurderes opp mot hverandre
+    - Kriterier med +/- metode
+- Anbefalt løsning
+- Pilot/POC
+  - Bør baseres på et valgt konsept
+  - Hva ønsker man å få ut av dette?
+  - Må settes i sammenheng med mål, behov, prinsipper
+  - Bør følge samme mal, men trenger ikke fylle inn alt av innhold
 
-  * Alternative løsningsvalg må beskrives og vurderes opp mot hverandre
-
-    * Kriterier med +/- metode
-* Anbefalt løsning
-* Pilot/POC
-
-  * Bør baseres på et valgt konsept
-  * Hva ønsker man å få ut av dette?
-  * Må settes i sammenheng med mål, behov, prinsipper
-  * Bør følge samme mal, men trenger ikke fylle inn alt av innhold
-
-- - -
+---
 
 **Til diskusjon:**
 
-* Hvor dypt ned i arkitekturstyring skal dokumentet beskrive? F.eks. forvaltningskost, overføring linje, …
-* Føringer må inn (arkitekturprinsippene ⇒ NA-kap)
-* Ang. prinsippene under:
-
-  * Vi ønsker at for hvert løsningsalternativ skal disse angi «i hvilken grad» kapabilitetene trenges (støttes eller realiseres). «I hvilken grad» er en egenfastsettelse på «0, NA, 1 = i liten grad, 2 = i stor grad, 3 = i meget stor grad»
-* Prinsippene må lenkes til. Kapabilitetene må forklares «litt til». Lenke til hele kapabilitetsmodellen. Underkapabiliteter må inn i oversikten.
-* Andre arkitekturmønstre som skal inn og argumenterer for?
-
-  * Hendelsesdrevet og tjenestekjeder
+- Hvor dypt ned i arkitekturstyring skal dokumentet beskrive? F.eks. forvaltningskost, overføring linje, …
+- Føringer må inn (arkitekturprinsippene ⇒ NA-kap)
+- Ang. prinsippene under:
+  - Vi ønsker at for hvert løsningsalternativ skal disse angi «i hvilken grad» kapabilitetene trenges (støttes eller realiseres). «I hvilken grad» er en egenfastsettelse på «0, NA, 1 = i liten grad, 2 = i stor grad, 3 = i meget stor grad»
+- Prinsippene må lenkes til. Kapabilitetene må forklares «litt til». Lenke til hele kapabilitetsmodellen. Underkapabiliteter må inn i oversikten.
+- Andre arkitekturmønstre som skal inn og argumenterer for?
+  - Hendelsesdrevet og tjenestekjeder
 
 ![Tabell over arkitekturprinsipper P1–P7 med tilhørende Nasjonal Arkitektur-kapabiliteter og begrunnelser](image2.png)
 
 **Områder som bør inn i dokumentet:**
 
-* Forretningsmål som skal støttes (hentes fra egen prosess evt.), kjente behov etc.
-* Arkitekturmålbilde
-* Løsningsarkitektur
+- Forretningsmål som skal støttes (hentes fra egen prosess evt.), kjente behov etc.
+- Arkitekturmålbilde
+- Løsningsarkitektur
 
 ![Diagram som viser kobling mellom de fire arkitekturlagene og Nasjonal arkitektur for samhandling med kapabiliteter](image3.png)
 
@@ -117,8 +105,8 @@ Her defineres kriteriene som alternativene skal vurderes mot. Kriteriene deles i
 
 ![Den triple diamanten – metodikk med fasene 1. Diagnose, 2. Utforske og definere, og 3. Utvikle og levere](image4.png)
 
-* For hvert løsningsalternativ som skal vurderes kan disse være på ulike abstraksjonsnivåer.
-* Hensikten med å dele opp en arkitekturbeskrivelse på denne måten er å strukturere argumentasjonen rundt arkitektoniske valg og beslutninger, slik at man lettere kan skille på hva som er relevant for en gitt problemstilling og hvorfor man har truffet de valg som ble tatt.
+- For hvert løsningsalternativ som skal vurderes kan disse være på ulike abstraksjonsnivåer.
+- Hensikten med å dele opp en arkitekturbeskrivelse på denne måten er å strukturere argumentasjonen rundt arkitektoniske valg og beslutninger, slik at man lettere kan skille på hva som er relevant for en gitt problemstilling og hvorfor man har truffet de valg som ble tatt.
 
 ## Vedlegg A: Foreløpige notater om arkitekturstyring
 
@@ -134,11 +122,9 @@ Her defineres kriteriene som alternativene skal vurderes mot. Kriteriene deles i
 
 ### Noen detaljer
 
-* Roller og ansvar (må defineres)
-
-  * «Ansvarlig arkitekt» – ansvar for helhet. Taktisk.
-
-    * Sørge for at IT-målbilder, veikart og løsningsmønstre blir utarbeidet på en hensiktsmessig måte
-    * Sørge for at løsningsarkitektur er i henhold til måloppnåelsen
-  * Teamarkitekt/Løsningsarkitekt: Operativt
-* Metodikk…
+- Roller og ansvar (må defineres)
+  - «Ansvarlig arkitekt» – ansvar for helhet. Taktisk.
+    - Sørge for at IT-målbilder, veikart og løsningsmønstre blir utarbeidet på en hensiktsmessig måte
+    - Sørge for at løsningsarkitektur er i henhold til måloppnåelsen
+  - Teamarkitekt/Løsningsarkitekt: Operativt
+- Metodikk…
