@@ -6,7 +6,7 @@ weight: 40
 ---
 ## Mal for arkitekturvurderinger – utkast
 
-**NB!** Generelt rundt bruken av malen: Man trenger ikke bruke ALT i malen, men benytt den som et utgangspunkt og velg ut det som er mest relevant. Det viktigste er at man har et bevisst forhold til hva man velger å beskrive. Beskrivelsen vil utvikle seg gjennom utviklingsprosessen.
+**NB!** Generelt rundt bruken av malen: Man trenger ikke bruke ALT i malen, men benytt den som et utgangspunkt og velg ut det som er mest relevant. Det viktigste er at man har et bevisst forhold til hva man velger å beskrive. Beskrivelsen vil utvikle seg gjennom utviklingsprosessen..
 
 ## Utkast til mal
 
