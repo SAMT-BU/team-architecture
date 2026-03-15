@@ -1,5 +1,5 @@
 ---
-id: a2002b2b-54bb-4c38-8cbf-d7daa538ec34
+id: 4f45d302-585d-4719-aee6-bbdffe003fab
 title: "Pilot1-arkitektur"
 linkTitle: "Pilot1-arkitektur"
 weight: 10
