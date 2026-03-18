@@ -4,6 +4,7 @@ title: Arkitekturstyring
 linkTitle: Arkitekturstyring
 weight: 40
 last_editor: erikhag1git (Erik Hagen)
+lastmod: 2026-03-16T00:42:27+01:00
 
 ---
 > **Kilde:** SAMT-BU kjerneteam / Digdir, februar 2026.

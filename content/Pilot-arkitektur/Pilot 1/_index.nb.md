@@ -4,6 +4,7 @@ title: "Pilot1-arkitektur"
 linkTitle: "Pilot1-arkitektur"
 weight: 10
 last_editor: erikhag1git (Erik Hagen)
+lastmod: 2026-03-15T23:49:24+01:00
 
 ---
 

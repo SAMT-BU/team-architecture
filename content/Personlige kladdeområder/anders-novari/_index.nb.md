@@ -4,6 +4,8 @@ title: Anders (Novari)
 weight: 30
 # Gyldige verdier: Ny | Tidlig utkast | Pågår | Til QA | Godkjent | Avbrutt
 last_editor: erikhag1git (ukjent navn)
+lastmod: 2026-03-16T14:27:31+01:00
+
 ---
 Ingress - dette er ....
 
