@@ -4,6 +4,7 @@ title: "Personal draft area for KS-Pål"
 linkTitle: "Pål (KS)"
 weight: 20
 last_editor: erikhag1git (Erik Hagen)
+lastmod: 2026-03-20T09:43:22+01:00
 
 ---
 
