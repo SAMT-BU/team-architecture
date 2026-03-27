@@ -4,7 +4,8 @@ title: "Team architecture"
 linkTitle: "Team architecture"
 weight: 10
 status: "Not started"
-lastmod: 2026-03-15T23:49:24+01:00
+lastmod: 2026-03-27T23:29:11+01:00
+last_editor: Erik Hagen
 
 ---
 

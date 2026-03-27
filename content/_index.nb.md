@@ -3,7 +3,8 @@ id: 45db8736-5545-4918-8533-9d8b8546e102
 title: Team arkitektur
 linkTitle: Team arkitektur
 weight: 10
-lastmod: 2026-03-15T23:49:24+01:00
+lastmod: 2026-03-27T23:29:11+01:00
+last_editor: Erik Hagen
 
 ---
 Her kommer mer innhold.
