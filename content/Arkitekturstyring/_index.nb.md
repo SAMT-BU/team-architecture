@@ -3,7 +3,6 @@ id: c6bf81cb-d1de-4017-b0d5-6f099db0ba5b
 title: Arkitekturstyring
 linkTitle: Arkitekturstyring
 weight: 40
-last_editor: erikhag1git (Erik Hagen)
 lastmod: 2026-03-16T00:42:27+01:00
 
 ---
