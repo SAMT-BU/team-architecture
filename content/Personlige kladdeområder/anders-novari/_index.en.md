@@ -1,5 +1,5 @@
 ---
-# id: auto-generert – kopierte verdier overskrives automatisk ved push
+# id: auto-generated – copied values are overwritten automatically on push
 id: 12b26842-a2d5-4bce-92e5-3f718494ad95
 title: Anders (Novari)
 weight: 30

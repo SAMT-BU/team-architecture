@@ -1,5 +1,5 @@
 ---
-# id: auto-generert – kopierte verdier overskrives automatisk ved push
+# id: auto-generated – copied values are overwritten automatically on push
 id: 67392e56-6fda-446b-8e29-4b1d3682e64d
 title: "Personal draft areas"
 linkTitle: "Personal draft areas"

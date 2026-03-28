@@ -1,5 +1,5 @@
 ---
-# id: auto-generert – kopierte verdier overskrives automatisk ved push
+# id: auto-generated – copied values are overwritten automatically on push
 id: b6650cc3-39aa-44ce-a92e-2c856aa6df14
 title: "Target architecture"
 linkTitle: "Target architecture"

@@ -1,5 +1,5 @@
 ---
-# id: auto-generert – kopierte verdier overskrives automatisk ved push
+# id: auto-generated – copied values are overwritten automatically on push
 id: 45db8736-5545-4918-8533-9d8b8546e102
 title: "Team architecture"
 linkTitle: "Team architecture"
