@@ -1,4 +1,5 @@
 ---
+# id: auto-generert – kopierte verdier overskrives automatisk ved push
 id: 288fdb8b-cbfc-486d-9545-ba8014ea6abf
 title: "Pilot1-arkitektur"
 linkTitle: "Pilot1-arkitektur"

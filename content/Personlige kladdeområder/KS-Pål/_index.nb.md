@@ -1,4 +1,5 @@
 ---
+# id: auto-generert – kopierte verdier overskrives automatisk ved push
 id: 8728e68a-1451-4c73-a7ba-ee82008a858b
 title: "Personlig kladdeområde for KS-Pål"
 linkTitle: "Pål (KS)"
