@@ -5,7 +5,7 @@ title: "Overall architecture"
 linkTitle: "Overall architecture"
 weight: 10
 status: "Not started"
-lastmod: 2026-03-28T10:12:28+01:00
+lastmod: 2026-04-23T16:57:52+02:00
 last_editor: Erik Hagen
 
 ---
